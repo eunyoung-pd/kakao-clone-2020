@@ -1,0 +1,59 @@
+.more-screen .user-component .user-component__column i {
+  color: #222;
+}
+
+.more-screen .user-component .user-component__column .ri-information-line {
+  color: tomato;
+}
+
+.more-screen .icon-row {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+.more-screen .icon-row .icon-row__icon {
+  width:100px;
+  margin-bottom: 32px;
+}
+
+.more-screen .icon-row .icon-row__icon span {
+  font-size: 16px;
+}
+
+.more-suggestions {
+  border-top: 1px solid var(--border_color);
+  padding: 32px 0 24px 0;
+}
+
+.more-suggestions__title {
+  font-size: 17px;
+  color:var(--gray_color_dark);
+  font-weight: 600;
+}
+
+.more-suggestions__icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-suggestions__icon {
+  width: 20%;
+  text-align: center;
+}
+
+.more-suggestions__icon-image img{
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border_color);
+}
+
+.more-suggestions__icon-text {
+  color: var(--gray_color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+}
