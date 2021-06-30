@@ -1,0 +1,8 @@
+:root {
+    --primary_color: rgb(50, 211, 136);
+    --horizontal-space: 24px;
+    --border_color: rgba(0, 0, 0, 0.1);
+    --gray_color: rgba(0, 0, 0, 0.4);
+    --gray_color_dark:rgba(0, 0, 0, 0.6);
+    --gray_color_light: rgba(0, 0, 0, 0.3);
+}
