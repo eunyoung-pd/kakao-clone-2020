@@ -4,11 +4,16 @@
   padding: var(--horizontal-space);
   align-items: center;
   margin: 32px 0 12px 0;
+
 }
 
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
+}
+
+.screen-header__icons {
+  position: relative;
 }
 
 .screen-header__icons span {
